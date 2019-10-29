@@ -1,0 +1,221 @@
+%\documentclass[a4paper,twoside,titlepage,12pt]{scrartcl}
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+%\usepackage[utf8]{inputenc}
+
+\usepackage{import}
+
+\usepackage[a4paper, driver=xetex, left=2cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage{xcolor}
+\colorlet{borrador}{red}
+
+\usepackage{float}
+
+\usepackage{rotating}
+
+%\usepackage{longtable}
+%\usepackage{tabularx}
+% ltablex combina las características de tabularx y longtable.
+\usepackage{ltablex}
+%\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+% \arraybackslash hace que \\ vuelve a tomar el valor apropiado dentro de una tabla, ya que el uso de \centering lo cambia.
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{makecell}
+
+% NOTA IMPORTANTE SOBRE TABLAS. "m" hace que el contenido de la tabla se "centre" verticalmente. Este "centrado" viene determinado por el "baseline" de la primera celda. Si no es "m" no va a salir centrado verticalmente.
+
+\usepackage{sectsty}
+%\allsectionsfont{\fontsize{12}{15}\selectfont}
+\allsectionsfont{\normalsize}
+
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\bfseries\normalsize}
+\renewcommand\cftsecpagefont{\bfseries\normalsize}
+\renewcommand\cftsubsecfont{\normalsize}
+\renewcommand\cftsubsecpagefont{\normalsize}
+
+
+\usepackage{lipsum}
+
+%\linespread{1.5}
+\linespread{2}
+
+\title{Programación}
+\author{Manuel Cayetano Piñeiro Mourzos}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+
+\section{Indentificación}
+\subsection{Centro educativo}
+\subsection{Ciclo formativo}
+\subsection{Módulo profesional}
+\subsection{Profesorado responsable}
+
+\section{Concreción del currículo en relación a su adecuación al ámbito productivo}
+
+\import{sections/}{unidades_didacticas.tex}
+
+    
+\begin{tabularx}{\textwidth}{| X | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | m{5cm} |}
+    \caption{Secuencias de R.A., C.E. y contenidos. Selección de los elementos de currículo del módulo para cada U.D.}
+    \label{tab:elem_curric}\\\hline
+    \multirow{2}{=}{R.A., C.E. y contenidos} & \multicolumn{6}{| c |}{Unidades didácticas} & \multirow{2}{=}{Comentarios} \\\cline{2-7}
+    & 1 & 2 & 3 & 4 & 5 & 6 & \\ \hline
+    \endfirsthead
+    
+    \hline
+    R.A., C.E. y contenidos & 1ª & 2 & 3 & 4 & 5 & 6 & Comentarios \\
+    \endhead
+    
+    \textbf{RA1. Reconoce los fundamentos y las funciones de los sistemas operativos y los sistemas de ficheros, e identifica sus elementos.} & X  &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.1. Se identificaron y describieron los elementos funcionales de un sistema informático. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.2. Se codificó y relacionó la información en varios sistemas de representación. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.3. Se analizaron las funciones de los sistemas operativos. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.4. Se describió la arquitectura de los sistemas operativos. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.5. Se identificaron los procesos y sus estados. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.6. Se identificaron las posibilidades de partición del subsistema de almacenamiento. & X &  &  &  &  &  & No comment. \\\hline
+    
+    \quad CA1.7. Se describió la estructura y la organización del sistema de ficheros. & X &  &  &  &  &  & No coment. \\\hline
+    
+    \quad CA1.8. Se constató la utilidad de los sistemas transaccionales y su repercusión a la hora de seleccionar un sistema de ficheros. & X &  &  &  &  &  & No coment. \\\hline\hline
+    
+    \textbf{RA2. Instala sistemas operativos, para lo que consulta e interpreta la documentación técnica.} &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.1. Se analizó la documentación técnica del hardware para verificar su idoneidad. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.2. Se seleccionó el sistema operativo. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.3. Se elaboró un plan de instalación a partir de los manuales del sistema operativo. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA.2.4. Se crearon y formatearon las particiones necesarias en los dispositivos de alacenamiento. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.5. Se configuraron los parámetros básicos de instalación. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.6. Se instaló el sistema operativo. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.7. Se configuró un gestor de arranque. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.8. Se instalaron los controladores de dispositivos necesarios. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.9. Se documentaron las decisiones tomadas y las incidencias surgidas en el proceso de instalación. &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.10. Se respetaron las normas de utilización del software (licencias). &  &  & X &  &  &  & No coment. \\\hline
+    
+    \quad CA2.11. Se trabajó con sistemas operativos libres y propietarios. &  &  & X &  &  &  & No coment. \\\hline\hline
+    
+    \textbf{RA3. Realiza tareas básicas de configuración de sistemas operativos, para lo que interpreta requisitos, y describe los procedimientos seguidos.} &  &  &  & X &  &  & No coment. \\\hline
+    
+    \quad CA3.1. Se diferenciaron los interfaces de usuario según sus propiedades. &  &  &  & X &  &  & No coment. \\\hline
+    
+    \quad CA3.2. Se aplicaron preferencias en la configuración del entorno personal. &  &  &  & X &  &  & No coment. \\\hline
+    
+    \quad CA3.3. Se gestionaron sistemas de ficheros específicos. &  &  &  & X &  &  & No coment. \\\hline
+    
+    \quad CA3.4. Se distinguieron los atributos de un fichero de los de un directorio. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.5. Se reconocieron los permisos de ficheros y directorios. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.6. Se utilizaron los asistentes de configuración del sistema (acceso a redes, dispositivos, etc.). &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.7. Se comprobó la existencia de actualizaciones del S.O. y de los controladores de dispositivos. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.8. Se realizó la instalación de parches del S.O. y de las versiones actuales de los controladores de dispositivos. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.9. Se realizó la configuración para la actualización periódica del S.O. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.10. Se documentaron los procesos de actuación realizados sobre el sistema. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.11. Se ejecutaron operaciones para la automatización de tareas del sistema. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.12. Se realizaron operaciones de instalación y desinstalación de utilidades. &  &  &  & X &  &  & \\\hline
+    
+    \quad CA3.13. Se aplicaron métodos para la recuperación del S.O. &  &  &  & X &  &  & \\\hline\hline
+    
+    \textbf{RA4. Realiza operaciones básicas de administración de sistemas operativos, para lo que interpreta requisitos, y dispone el sistema para su uso óptimo.} &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.1. Se configuraron perfiles de usuario y grupo. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.2. Se utilizaron herramientas gráficas para describir la organización de los ficheros del sistema. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.3. Se actuó sobre los procesos del usuario en función de las necesidades puntuales. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.4. Se actuó sobre los servicios del sistema en función de las necesidades puntuales. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.5. Se aplicaron criterios para el óptimo aprovechamiento de la memoria disponible. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.6. Se analizó la actividad del sistema a partir de las trazas generadas por el mismo. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.7. Se dispusieron los dispositivos de almacenamiento para un óptimo funcionamiento. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.8. Se reconocieron y configuraron los recursos compartibles del sistema. &  &  &  &  & X &  & \\\hline
+    
+    \quad CA4.9. Se interpretó la información de configuración del S.O. &  &  &  &  & X &  & \\\hline
+    
+    \textbf{RA5. Realiza tareas de gestión y administración básica de sistemas operativos, para lo que utiliza herramientas en linea de comandos.} &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.1. Se identificaron las diferencias entre las interfaces gráficas e as interfaces en liña de comandos. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.2. Se estableció el modo de acceso a la consola y las pautas para su uso. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.3. Se describieron las capacidades generales de los intérpretes de comandos y sus posibilidades de elección en función del sistema operativo. &  &  &  &  &   & X & \\\hline
+    
+    \quad CA5.4. Se utilizaron comandos para actuar sobre ficheros y directorios. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.5. Se utilizaron otros comandos habituales propios del sistema operativo. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.6. Se aplicaron redireccionamientos sobre la entrada y la salida delos comandos. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.7. Se aplicaron opciones para modificar el comportamiento de los comandos. &  &  &  &  &  & X & \\\hline
+    
+    \quad CA5.8. Se accedió a la ayuda en linea para obtener información sobre la utilización de los comandos. &  &  &  &  &  & X & \\\hline
+    
+    \textbf{RA6. Utiliza máquinas virtuales, identifica su campo de aplicación e instala software específico.} &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.1. Se diferenció entre máquina real y máquina virtual. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.2. Se establecieron la ventajas e inconvenientes del uso de máquinas virtuales. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.3 Se analizaron las principales herramientas para la creación y la utilización de máquinas virtuales. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.4. Se instaló software libre y propietario para la creación de máquinas virtuales. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.5. Se crearon máquinas virtuales a partir de sistemas operativos libres y propietarios. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.6. Se configuraron máquinas virtuales. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.7. Se documentaron las opciones tomadas en la creación, instalación y configuración de la máquina virtual. &  & X &  &  &  &  & \\\hline
+    
+    \quad CA6.8. Se relacionó la máquina virtual con el sistema operativo anfitrión. &  & X &  &  &  & X & \\\hline
+    
+    \quad CA6.9. Se realizaron pruebas de rendimiento del sistema. &  & X &  &  &  &  & \\\hline
+    
+    
+\end{tabularx}
+
+\printbibliography
+
+\end{document}
