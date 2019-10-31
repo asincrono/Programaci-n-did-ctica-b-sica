@@ -1,0 +1,60 @@
+\documentclass[a4paper,twoside,titlepage]{scrartcl}
+
+\usepackage{import}
+
+\usepackage[a4paper, driver=xetex, left=2cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage{xcolor}
+\colorlet{borrador}{red}
+
+\usepackage{float}
+
+\usepackage{rotating}
+
+%\usepackage{longtable}
+%\usepackage{tabularx}
+% ltablex combina las características de tabularx y longtable.
+\usepackage{ltablex}
+%\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+% \arraybackslash hace que \\ vuelve a tomar el valor apropiado dentro de una tabla, ya que el uso de \centering lo cambia.
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{makecell}
+
+% NOTA IMPORTANTE SOBRE TABLAS. "m" hace que el contenido de la tabla se "centre" verticalmente. Este "centrado" viene determinado por el "baseline" de la primera celda. Si no es "m" no va a salir centrado verticalmente.
+
+\usepackage{sectsty}
+%\allsectionsfont{\fontsize{12}{15}\selectfont}
+\allsectionsfont{\normalsize}
+
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\bfseries\normalsize}
+\renewcommand\cftsecpagefont{\bfseries\normalsize}
+\renewcommand\cftsubsecfont{\normalsize}
+\renewcommand\cftsubsecpagefont{\normalsize}
+
+\usepackage{lipsum}
+
+%\linespread{1.5}
+\linespread{2}
+
+\title{Programación}
+\author{Manuel Cayetano Piñeiro Mourzos}
+\date{\today}
+
+\begin{document}
+
+\import{/}{table_vs0.tex}
+    
+\end{document}
