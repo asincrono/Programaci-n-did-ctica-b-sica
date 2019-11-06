@@ -1,0 +1,123 @@
+%\documentclass[a4paper,twoside,titlepage]{scrartcl}
+\documentclass[a4paper,twoside,titlepage,12pt]{article}
+% NOTA: No olvidar incluir "/" al final de la ruta.
+\usepackage{import}
+
+\usepackage[a4paper, driver=xetex, left=2cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+% \usepackage{xcolor}
+% \colorlet{borrador}{red}
+
+\usepackage{float}
+
+\usepackage{rotating}
+
+\usepackage{longtable}
+%\usepackage{tabularx}
+% ltablex combina las características de tabularx y longtable.
+\usepackage{ltablex}
+\keepXColumns % Evitar que el ancho indicado en tabularx se tome como máximo.
+% \usepackage{tabulary}
+% \usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\begin{document}
+    \begin{tabularx}{0.5\linewidth}{p{2cm} X X p{2cm}}
+    \toprule
+    Number & Multiline par. & Multiline par. & Symbol \\ \midrule
+    1 & La razón de la sinrazón que a mi razón se hace & De tal manera mi razón enflaquece & X\\
+    2 & La razón de la sinrazón que a mi razón se hace & De tal manera mi razón enflaquece & X\\ 
+    \bottomrule
+    \end{tabularx}
+
+
+% \begin{longtabu} to 0.75\textwidth {X[c,m] X X X[3,c,m]}
+%     \toprule
+%     Number & Paragraph & Another paragraph & Check \\ \midrule
+%     \endfirsthead
+%     \endhead
+%     1 & La razón de la sinrazón que a mi razón se hace & De tal manera mi razón enflaquece & X \\
+%     2 & La razón de la sinrazón que a mi razón se hace & De tal manera mi razón enflaquece &  \\
+%     3 & La razón de la sinrazón que a mi razón se hace & De tal manera mi razón enflaquece & X \\
+%     \bottomrule
+% \end{longtabu}
+
+
+
+% \begin{longtabu} to 0.5\textwidth {X X X[2,c,m] X[2,c,m]}
+%     \toprule
+%     \multicolumn{2}{c}{Group of columns} & \\ \cmidrule{1-2}
+%     Col. a & Col. b & \multirow{-2}{*}{Thick col. c} & \multirow{-2}{*}{Thick col. d} \\ \midrule
+%     \endfirsthead
+%     \endhead
+%     Aaaa & Bbbb & Cccc & Dddd \\ \bottomrule 
+% \end{longtabu}
+
+
+% \begin{longtabu} to 0.5\textwidth {X X X[2,c,m] X[2,c,m]}
+%     \toprule
+%     \multicolumn{2}{c}{Group of columns} & \\ \cmidrule{1-2}
+%     Col. a & Col. b & \multirow{-2}{*}{Thick col. c} & \multirow{-2}{*}{Thick col. d} \\ \midrule
+%     \endfirsthead
+%     \endhead
+%     Vivir así es morir de amor & Por amor tengo el alma heriiiiiida & Melancolía & Melancolía \\ \bottomrule 
+% \end{longtabu}
+
+\newpage
+% \renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+\begin{tabularx}{0.5\linewidth}{M{2cm} X X M{2cm}}
+    \toprule
+    Number & Multiline par. & Multiline par. & Symbol \\ \midrule
+    1 & La razón de la sinraón que a mi razón se hace & De tal manera mi razón enflaquece & X\\
+    2 & La razón de la sinraón que a mi razón se hace & De tal manera mi razón enflaquece & X\\ 
+    \bottomrule
+\end{tabularx}
+
+% %\begin{sidewaystable}[!htbp]
+
+%     \begin{tabularx}{\textwidth}{| P{0.9cm} | P{0.9cm} | P{0.9cm} | P{0.9cm} | P{0.9cm} | P{0.9cm} | P{1cm} | X | P{0.5cm} | P{1cm} |}
+%         \caption{Unidades didácticas y su duración en relación a los R.A.  incluidos, indicando también su duración (D.) y peso (P.).}
+%         \label{tab:ud_ra}\\\hline
+        
+%         \multicolumn{6}{| c |}{Resultados de aprendizaje} &  & \multirow{2}{=}{Título y descripción} & \multirow{2}{=}{D.} & \multirow{2}{=}{P.} \\\cline{1-6}
+%         RA1 & RA2 & RA3 & RA4 & RA5 & RA6 & \multirow{-2}{*}{U.D.} &  &  &  \\\hline
+%         \endfirsthead
+%         \hline
+%         RA1 & RA2 & RA3 & RA4 & RA5 & RA6 & U.D. & Título y descripción & D. & P. \\\hline
+%         \endhead
+        
+%         \multicolumn{6}{| c |}{} &  & Total &  & 100\% \\\hline
+%         \endlastfoot
+        
+%         X & & & & & & 1 & \makecell[l{X}]{\textbf{Fundamentos:}\\ Elementos fundamentales de un sistema operativo} & ? & 20\% \\\hline
+        
+%         & X & & & & & 3 & \makecell[l{X}]{\textbf{Instalación:}\\ Proceso de instalación de varios sistemas operativos monousuario.} & 5 & 15\% \\\hline
+        
+%         & & X & & & & 4 & \makecell[l{X}]{\textbf{Configuración:}\\ Configuración del sistema operativo adecuándolo a las necesidades del usuario en integrándolo en el entorno de trabajo.} & 5 & 20\% \\\hline
+        
+%         & & & X & & & 5 & \makecell[l{X}]{\textbf{Administración y optimización:}\\ Donde trataremos de las tareas de administración y métodos de análisis de carga para la optimización del sistema.} & 5 & 10\% \\\hline
+        
+%         & & & & X & & 6 & \makecell[l{X}]{\textbf{Herramientas de linea de comandos:}\\ Donde veremos el funcionamiento de la linea de comandos la sus herramientas administrativas principales.} & 5& 15\% \\\hline
+        
+%         & & & & & X & 2 & \makecell[l{X}]{\textbf{Virtualización:}\\ Describimos las características y utilidad de las máquinas virtuales. Crearemos varias máquinas virtuales en las que instalaremos distintos sistemas operativos.} & 5& 20\% \\\hline
+%     \end{tabularx}
+%     %\end{sidewaystable}
+
+%     \newpage
+
+\begin{tabularx}{\textwidth}{c X c}
+    \thead{Uno} & \thead{Dos} & \thead{Tres}\\ 
+    1 & 2 & 3 \\
+\end{tabularx}
+
+\end{document}

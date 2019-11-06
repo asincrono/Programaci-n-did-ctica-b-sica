@@ -1,41 +1,58 @@
-\documentclass[a4paper,twoside,titlepage]{scrartcl}
-
-\usepackage{import}
-
+% \documentclass[a4paper,oneside,titlepage,12pt]{scrartcl}
+%\documentclass[a4paper,twoside,titlepage]{scrartcl}
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+\usepackage{calc}
+\usepackage{xstring} % Para hacer condicional con palabras
 \usepackage[a4paper, driver=xetex, left=2cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{polyglossia}
 \setmainlanguage{spanish}
 
-\usepackage{csquotes}
-\usepackage[style=apa, backend=biber]{biblatex}
-\addbibresource{biblio.bib}
+% \usepackage{csquotes}
+% \usepackage[style=apa, backend=biber]{biblatex}
+% \addbibresource{biblio.bib}
 
 \usepackage{fontspec}
 \setmainfont{Arial}
+%\setmainfont{Liberation Sans}
 
-\usepackage{xcolor}
-\colorlet{borrador}{red}
+% \usepackage{xcolor}
+% \colorlet{borrador}{red}
 
 \usepackage{float}
 
+% Para evitar que se rompan tablas pequeñas se reservará espacio
+\usepackage{needspace}
+
 \usepackage{rotating}
+
+\usepackage[table]{xcolor}
+\newcounter{tblerows}
+\expandafter\let\csname c@tblerows\endcsname\rownum
 
 %\usepackage{longtable}
 %\usepackage{tabularx}
 % ltablex combina las características de tabularx y longtable.
 \usepackage{ltablex}
-%\usepackage{booktabs}
+\keepXColumns % Evitar que el ancho indicado en tabularx se tome como máximo.
+% \usepackage{tabulary}
+% \usepackage{tabu}
+\usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{array}
 % \arraybackslash hace que \\ vuelve a tomar el valor apropiado dentro de una tabla, ya que el uso de \centering lo cambia.
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+
 \usepackage{makecell}
+\renewcommand\theadfont{\bfseries\normalsize}
+\renewcommand\theadalign{cc}
 
 % NOTA IMPORTANTE SOBRE TABLAS. "m" hace que el contenido de la tabla se "centre" verticalmente. Este "centrado" viene determinado por el "baseline" de la primera celda. Si no es "m" no va a salir centrado verticalmente.
 
 \usepackage{sectsty}
-%\allsectionsfont{\fontsize{12}{15}\selectfont}
+\allsectionsfont{\fontsize{12}{15}\selectfont}
 \allsectionsfont{\normalsize}
 
 \usepackage{tocloft}
@@ -43,18 +60,112 @@
 \renewcommand\cftsecpagefont{\bfseries\normalsize}
 \renewcommand\cftsubsecfont{\normalsize}
 \renewcommand\cftsubsecpagefont{\normalsize}
+% Limitar la profundidad de la tabla de contenidos/Índice general
+\setcounter{tocdepth}{2}
 
+
+
+%Cambiar el estilo de numeración de la subsecciones.
+%\renewcommand\thesubsection{\thesection.\alph{subsection})}
+\renewcommand\thesubsubsection{\thesubsection.\alph{subsubsection})}
+% Ajustar el espacio después de cambiar dicha numeración.
+%\setlength{\cftsubsubsecnumwidth}{\dimexpr 4em + 0.7ex}
+\addtolength{\cftsubsubsecnumwidth}{\widthof{x)} - 1ex}
+
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{bookmark}
 \usepackage{lipsum}
 
-%\linespread{1.5}
-\linespread{2}
+% NOTA: No olvidar incluir "/" al final de la ruta.
+\usepackage{import}
+
+\linespread{1.5}
+%\linespread{2}
 
 \title{Programación}
-\author{Manuel Cayetano Piñeiro Mourzos}
+\author{Manuel Cayetano Piñeiro Mourazos}
 \date{\today}
+
+\usepackage{xparse} % To do all kinds of cool macros in TeX
+\ExplSyntaxOn
+\NewExpandableDocumentCommand \IntCasennF {m m m}
+    { \int_case:nnF {#1} {#2} {#3} }
+\ExplSyntaxOff
+
+% Definición de variables para coherencia de duración de U.D. etc.
+\DeclareRobustCommand{\NumSesionesUD}[1]{%
+    \IntCasennF{#1}{%
+        {1}{¿1?}%
+        {2}{¿2?}%
+        {3}{¿3?}%
+        {4}{¿4?}%
+        {5}{¿5?}%
+        {6}{¿6?}%
+    }{¡El horror!}%
+}
+
+\DeclareRobustCommand{\TituloUD}[1]{%
+    \IntCasennF{#1}{%
+        {1}{Anatomía de un P.C.}%
+        {2}{Las virtudes de virtualizar}%
+        {3}{Haciendo el equipo operativo}%
+        {4}{Redecorando el <<home>>}%
+        {5}{Tomando los mandos}%
+        {6}{¡Commandos!}%
+    }{¡El horror!}%
+}
 
 \begin{document}
 
-\import{/}{table_vs0.tex}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section*{Introducción}
+
+\import{sections/}{01_introduccion.tex}
+
+\section{Identificación}
+
+\import{sections/}{02_identificacion.tex}
+
+\section[Concreción del currículo en relación al ámbito productivo]{Concreción del currículo en relación a su adecuación a las características del ámbito productivo}
+
+\import{sections/}{03_concrecion.tex}
+
+\section{Relación de unidades didácticas}
+
+\import{sections/}{04_relacion_ud.tex}
+
+\section{Por cada unidad didáctica}
+
+\import{sections/}{05_unidades_didacticas.tex}
+
+\section[Mínimos exigibles]{Mínimos exigibles para alcanzar la evaluación positiva y los criterios de cualificación}
+
+\import{sections/}{06_minimos.tex}
+
+\section{Procedimiento para la recuperación de las partes no superadas}
+
+\import{sections/}{07_recuperacion.tex}
+
+\section[Seguimiento de la programación y evaluación de la práctica docente]{Procedimiento sobre el seguimiento de la programación y la evaluación de la propia práctica docente}
+
+\import{sections/}{08_atencion_diversidad.tex}
+
+\section{Medidas de atención a la diversidad}
+
+\import{sections/}{09_eval_prac_doc.tex}
+
+\section{Aspectos transversales}
+
+\import{sections/}{10_transversales.tex}
+
+\section{Conclusión}
+
+\import{sections/}{11_conclusion.tex}
     
 \end{document}

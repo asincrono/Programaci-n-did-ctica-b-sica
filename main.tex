@@ -26,7 +26,8 @@
 %\usepackage{tabularx}
 % ltablex combina las características de tabularx y longtable.
 \usepackage{ltablex}
-%\usepackage{booktabs}
+
+\usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{array}
 % \arraybackslash hace que \\ vuelve a tomar el valor apropiado dentro de una tabla, ya que el uso de \centering lo cambia.
@@ -63,17 +64,55 @@
 
 \newpage
 
-\section{Indentificación}
-\subsection{Centro educativo}
-\subsection{Ciclo formativo}
-\subsection{Módulo profesional}
-\subsection{Profesorado responsable}
+\maketitle
 
-\section{Concreción del currículo en relación a su adecuación al ámbito productivo}
+\tableofcontents
 
-\import{sections/}{unidades_didacticas.tex}
+\section{Introducción}
 
-    
+\import{sections/}{01_introduccion.tex}
+
+\section{Identificación}
+
+\import{sections/}{02_identificacion.tex}
+
+\section{Concreción del currículo en relación a su adecuación a las características del ámbito productivo}
+
+\import{sections/}{03_concrecion.tex}
+
+\section{Relación de unides didácticas}
+
+\import{sections/}{04_relacion_ud.tex}
+
+\section{Por cada unidad didáctica}
+
+\import{sections/}{05_unidades_didacticas.tex}
+
+\section{Mínimos exigibles para alcanzar la evaluación positiva y los criterios de cualificación}
+
+\import{sections/}{06_minimos.tex}
+
+\section{Procedimiento para la recuperación de las partes no superadas}
+
+\import{sections/}{07_recuperacion.tex}
+
+\section{Procedimiento sobre el seguimiento de la programación y la evaluación de pa propia práctica docente}
+
+\import{sections/}{08_atencion_diversidad.tex}
+
+\section{Medidas de atención a la diversidad}
+
+\import{sections/}{09_eval_prac_doc.tex}
+
+\section{Aspectos transversales}
+
+\import{sections/}{10_transversales.tex}
+
+\section{Conclusión}
+
+\import{sections/}{11_conclusion.tex}
+\import{/}{table_vs1.tex}
+        
 \begin{tabularx}{\textwidth}{| X | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | M{0.5cm} | m{5cm} |}
     \caption{Secuencias de R.A., C.E. y contenidos. Selección de los elementos de currículo del módulo para cada U.D.}
     \label{tab:elem_curric}\\\hline

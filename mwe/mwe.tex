@@ -1,0 +1,29 @@
+% \documentclass[a4paper,oneside,12pt]{scrartcl}
+\documentclass[a4paper,oneside,titlepage,12pt]{article}
+
+\usepackage{xstring} % Para hacer condicional con palabras
+
+\usepackage{bookmark}
+
+% \newcommand{\UnasPalabras}[1]{
+%     \IfEqCase{#1}{%
+%         {1}{y ¡Ya no puedo más!}%
+%         {2}{Siempre se repite esta misma historia.}%
+%         {3}{¡Melancolíiiiiiiía!}%
+%     }[Horror!]%
+% }
+
+\newcommand{\UnasPalabras}[1]{\ifcase\numexpr#1\relax\or y ¡Ya no puedo más!\or Siempre se repite esta misma historia.\or ¡Melancolíiiiiiiía!\else Horror!\fi}
+
+\begin{document}
+
+    \tableofcontents
+
+    \section{Siempre me voy a enamorar}
+    De quien de mi no se enamora,\newline
+    es por eso que mi alma llora.
+    
+    \section{\protect\UnasPalabras{1}}
+    \UnasPalabras{1}\newline
+    \UnasPalabras{2}
+\end{document}
