@@ -21,35 +21,34 @@
 \contentsline {subsection}{\numberline {4.3}\TituloUD {3}}{7}{subsection.4.3}% 
 \contentsline {subsubsection}{\numberline {4.3.a)}Identificación de la unidad didáctica}{7}{subsubsection.4.3.1}% 
 \contentsline {subsubsection}{\numberline {4.3.b)}Resultados de aprendizaje del currículo que se tratan}{7}{subsubsection.4.3.2}% 
-\contentsline {subsubsection}{\numberline {4.3.c)}Resultados de aprendizaje de currículo que se tratan}{7}{subsubsection.4.3.3}% 
-\contentsline {subsubsection}{\numberline {4.3.d)}Objetivos específicos de la unidad didáctica}{7}{subsubsection.4.3.4}% 
-\contentsline {subsubsection}{\numberline {4.3.e)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{8}{subsubsection.4.3.5}% 
-\contentsline {subsubsection}{\numberline {4.3.f)}Contenidos}{9}{subsubsection.4.3.6}% 
-\contentsline {subsubsection}{\numberline {4.3.g)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{9}{subsubsection.4.3.7}% 
-\contentsline {subsection}{\numberline {4.4}\TituloUD {4}}{9}{subsection.4.4}% 
-\contentsline {subsubsection}{\numberline {4.4.a)}Identificación de la unidad didáctica}{9}{subsubsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.3.c)}Objetivos específicos de la unidad didáctica}{7}{subsubsection.4.3.3}% 
+\contentsline {subsubsection}{\numberline {4.3.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{7}{subsubsection.4.3.4}% 
+\contentsline {subsubsection}{\numberline {4.3.e)}Contenidos}{8}{subsubsection.4.3.5}% 
+\contentsline {subsubsection}{\numberline {4.3.f)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{8}{subsubsection.4.3.6}% 
+\contentsline {subsection}{\numberline {4.4}\TituloUD {4}}{8}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.a)}Identificación de la unidad didáctica}{8}{subsubsection.4.4.1}% 
 \contentsline {subsubsection}{\numberline {4.4.b)}Resultados de aprendizaje del currículo que se tratan}{9}{subsubsection.4.4.2}% 
 \contentsline {subsubsection}{\numberline {4.4.c)}Objetivos específicos de la unidad didáctica}{9}{subsubsection.4.4.3}% 
-\contentsline {subsubsection}{\numberline {4.4.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{10}{subsubsection.4.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{9}{subsubsection.4.4.4}% 
 \contentsline {subsubsection}{\numberline {4.4.e)}Contenidos}{11}{subsubsection.4.4.5}% 
 \contentsline {subsubsection}{\numberline {4.4.f)}Actividades de enseñanza, aprendizaje y evaluación; justifiCEción, materiales y recursos}{11}{subsubsection.4.4.6}% 
 \contentsline {subsection}{\numberline {4.5}\TituloUD {5}}{11}{subsection.4.5}% 
 \contentsline {subsubsection}{\numberline {4.5.a)}Identificación de la unidad didáctica}{11}{subsubsection.4.5.1}% 
-\contentsline {subsubsection}{\numberline {4.5.b)}Resultados de aprendizaje del currículo que se tratan}{12}{subsubsection.4.5.2}% 
-\contentsline {subsubsection}{\numberline {4.5.c)}Objetivos específicos de la unidad didáctica}{12}{subsubsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.b)}Resultados de aprendizaje del currículo que se tratan}{11}{subsubsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.c)}Objetivos específicos de la unidad didáctica}{11}{subsubsection.4.5.3}% 
 \contentsline {subsubsection}{\numberline {4.5.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{12}{subsubsection.4.5.4}% 
-\contentsline {subsubsection}{\numberline {4.5.e)}Contenidos}{12}{subsubsection.4.5.5}% 
-\contentsline {subsubsection}{\numberline {4.5.f)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{12}{subsubsection.4.5.6}% 
-\contentsline {subsection}{\numberline {4.6}\TituloUD {6}}{12}{subsection.4.6}% 
-\contentsline {subsubsection}{\numberline {4.6.a)}Identificación de la unidad didáctica}{12}{subsubsection.4.6.1}% 
-\contentsline {subsubsection}{\numberline {4.6.b)}Resultados de aprendizaje del currículo que se tratan}{12}{subsubsection.4.6.2}% 
+\contentsline {subsubsection}{\numberline {4.5.e)}Contenidos}{13}{subsubsection.4.5.5}% 
+\contentsline {subsubsection}{\numberline {4.5.f)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{13}{subsubsection.4.5.6}% 
+\contentsline {subsection}{\numberline {4.6}\TituloUD {6}}{13}{subsection.4.6}% 
+\contentsline {subsubsection}{\numberline {4.6.a)}Identificación de la unidad didáctica}{13}{subsubsection.4.6.1}% 
+\contentsline {subsubsection}{\numberline {4.6.b)}Resultados de aprendizaje del currículo que se tratan}{13}{subsubsection.4.6.2}% 
 \contentsline {subsubsection}{\numberline {4.6.c)}Objetivos específicos de la unidad didáctica}{13}{subsubsection.4.6.3}% 
-\contentsline {subsubsection}{\numberline {4.6.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{13}{subsubsection.4.6.4}% 
-\contentsline {subsubsection}{\numberline {4.6.e)}Contenidos}{13}{subsubsection.4.6.5}% 
-\contentsline {subsubsection}{\numberline {4.6.f)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{13}{subsubsection.4.6.6}% 
-\contentsline {section}{\numberline {5}Mínimos exigibles}{13}{section.5}% 
-\contentsline {section}{\numberline {6}Procedimiento para la recuperación de las partes no superadas}{13}{section.6}% 
-\contentsline {section}{\numberline {7}Seguimiento de la programación y evaluación de la práctica docente}{13}{section.7}% 
-\contentsline {section}{\numberline {8}Medidas de atención a la diversidad}{13}{section.8}% 
-\contentsline {section}{\numberline {9}Aspectos transversales}{13}{section.9}% 
-\contentsline {section}{\numberline {10}Conclusión}{13}{section.10}% 
+\contentsline {subsubsection}{\numberline {4.6.d)}Criterios de evaluación que se aplicarán para la verificación de la consecución de los objetivos por parte del alumnado}{14}{subsubsection.4.6.4}% 
+\contentsline {subsubsection}{\numberline {4.6.e)}Contenidos}{15}{subsubsection.4.6.5}% 
+\contentsline {subsubsection}{\numberline {4.6.f)}Actividades de enseñanza, aprendizaje y evaluación; justificación, materiales y recursos}{15}{subsubsection.4.6.6}% 
+\contentsline {section}{\numberline {5}Mínimos exigibles}{15}{section.5}% 
+\contentsline {section}{\numberline {6}Procedimiento para la recuperación de las partes no superadas}{15}{section.6}% 
+\contentsline {section}{\numberline {7}Seguimiento de la programación y evaluación de la práctica docente}{15}{section.7}% 
+\contentsline {section}{\numberline {8}Medidas de atención a la diversidad}{15}{section.8}% 
+\contentsline {section}{\numberline {9}Aspectos transversales}{15}{section.9}% 
+\contentsline {section}{\numberline {10}Conclusión}{15}{section.10}% 
