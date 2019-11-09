@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.26)  7 NOV 2019 10:46
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.26)  9 NOV 2019 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.tex
+**c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular
 (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
@@ -448,12 +448,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box46
 \@float@everytoks=\toks19
 \@floatcapt=\box47
-) (c:/texlive/2019/texmf-dist/tex/latex/needspace/needspace.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
-) (c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
- (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
  (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
@@ -464,7 +460,10 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: xetex.def on input line 99.
  (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-))
+))) (c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 ) (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
@@ -475,6 +474,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip53
 \rot@float@box=\box48
 \rot@mess@toks=\toks20
+) (c:/texlive/2019/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
 ) (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -712,7 +713,8 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )) (c:/texlive/2019/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-) (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.aux)
+)
+No file main_regular.aux.
 \openout1 = `main_regular.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -733,7 +735,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
 LaTeX Font Info:    ... okay on input line 117.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
 LaTeX Font Info:    ... okay on input line 117.
-
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
@@ -742,14 +743,14 @@ LaTeX Font Info:    ... okay on input line 117.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 497.92325pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=497.92325pt
-* \textheight=731.23584pt
+* \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -836,26 +837,23 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
 LaTeX Info: Redefining \nameref on input line 117.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 120.
- (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
-] (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-)
+]
 \tf@toc=\write3
 \openout3 = `main_regular.toc'.
 
- [1] (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/01_introduccion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/02_identificacion.tex
+ [1] (./sections/01_introduccion.tex) (./sections/02_identificacion.tex
 Underfull \vbox (badness 10000) detected at line 9
  []
 
@@ -871,273 +869,288 @@ Underfull \vbox (badness 10000) detected at line 36
 Underfull \vbox (badness 10000) detected at line 47
  []
 
-) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/03_concrecion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/04_relacion_ud.tex
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+) (./sections/03_concrecion.tex) (./sections/04_relacion_ud.tex
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA1| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA2| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA3| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA4| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA5| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA6| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA1| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA2| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA3| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA4| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA5| 
  []
 
 
-Overfull \hbox (2.6663pt too wide) in paragraph at lines 19--19
+Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA6| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []|\TU/Arial(0)/m/n/12 Anatomía de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []|\TU/Arial(0)/m/n/12 Hardware y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Arial(0)/m/n/12 software bá-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \TU/Arial(0)/m/n/12 sico de un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []|\TU/Arial(0)/m/n/12 Haciendo el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\TU/Arial(0)/m/n/12 Instalación de
- []
-
-[2]
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA1| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/Arial(0)/m/n/12 Instalación
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA2| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 de distintos
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA3| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/Arial(0)/m/n/12 Decorando el
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA4| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/Arial(0)/m/n/12 Configuración
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA5| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 del entorno
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA6| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 de usuario y
  []
 
 
-Overfull \hbox (2.66045pt too wide) in paragraph at lines 43--43
- []|[]| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 manejo del
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA1| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 sistema de
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA2| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/Arial(0)/m/n/12 Tomando los
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA3| 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\TU/Arial(0)/m/n/12 Administración
  []
 
 
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA4| 
+Underfull \hbox (badness 4940) in paragraph at lines 22--22
+\TU/Arial(0)/m/n/12 del sistema y
  []
 
-
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA5| 
- []
-
-
-Overfull \hbox (8.64157pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 RA6| 
- []
-
-
-Overfull \hbox (2.66045pt too wide) in paragraph at lines 43--43
- []|\TU/Arial(0)/bx/n/12 U.D.| 
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 43--43
-[]|\TU/Arial(0)/m/n/12 Elementos hardware y software funda-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/05_unidades_didacticas.tex (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD1.tex
-Underfull \vbox (badness 10000) detected at line 12
- []
-
-
-Underfull \vbox (badness 10000) detected at line 24
+[2]) (./sections/05_unidades_didacticas.tex (./sections/unidades_didacticas/UD1.tex
+Underfull \vbox (badness 10000) detected at line 10
  []
 
 [3]
-Underfull \hbox (badness 1117) in paragraph at lines 41--41
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 39--39
 []|\TU/Arial(0)/m/n/12 O.E.1.1. Identificar las funciones
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 41--41
+Underfull \hbox (badness 1117) in paragraph at lines 39--39
 []|\TU/Arial(0)/m/n/12 O.E.1.2. Identificar las funciones
  []
 
-[4]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD2.tex
-Underfull \vbox (badness 10000) detected at line 12
+[4] [5]
+Overfull \vbox (6.0pt too high) detected at line 86
+ []
+
+./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.86 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \vbox (6.0pt too high) detected at line 86
+ []
+
+./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.86 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \vbox (6.0pt too high) detected at line 86
+ []
+
+./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.86 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[6
+
+]) (./sections/unidades_didacticas/UD2.tex
+Underfull \vbox (badness 10000) detected at line 10
  []
 
 
-Underfull \vbox (badness 10000) detected at line 24
+Underfull \vbox (badness 10000) detected at line 22
  []
 
 
-Underfull \vbox (badness 10000) detected at line 40
+Underfull \vbox (badness 10000) detected at line 38
  []
 
-[5]
-Underfull \hbox (badness 1072) in paragraph at lines 61--61
+
+Underfull \hbox (badness 1072) in paragraph at lines 59--59
 []|\TU/Arial(0)/m/n/12 CE6.3. Se analizaron las principales herra-
  []
 
-) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD3.tex [6]
-Underfull \vbox (badness 10000) detected at line 12
+[7
+
+]) (./sections/unidades_didacticas/UD3.tex
+Underfull \vbox (badness 10000) detected at line 10
+ []
+
+[8]
+Underfull \vbox (badness 10000) detected at line 22
  []
 
 
-Underfull \vbox (badness 10000) detected at line 24
+Underfull \vbox (badness 10000) detected at line 38
+ []
+
+[9]) (./sections/unidades_didacticas/UD4.tex
+Underfull \vbox (badness 10000) detected at line 10
  []
 
 
-Underfull \vbox (badness 10000) detected at line 40
+Underfull \vbox (badness 10000) detected at line 22
  []
 
-[7]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD4.tex [8]
-Underfull \vbox (badness 10000) detected at line 12
+[10]
+Underfull \vbox (badness 10000) detected at line 38
  []
 
-
-Underfull \vbox (badness 10000) detected at line 24
- []
-
-
-Underfull \vbox (badness 10000) detected at line 40
- []
-
-[9]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD5.tex [10]
-Underfull \vbox (badness 10000) detected at line 13
+[11]) (./sections/unidades_didacticas/UD5.tex
+Underfull \vbox (badness 10000) detected at line 11
  []
 
 
-Underfull \vbox (badness 10000) detected at line 25
+Underfull \vbox (badness 10000) detected at line 23
  []
 
-
-Underfull \hbox (badness 6284) in paragraph at lines 41--41
+[12]
+Underfull \hbox (badness 6284) in paragraph at lines 39--39
 []|\TU/Arial(0)/m/n/12 OE4.3. Listar los procesos de
  []
 
 
-Underfull \vbox (badness 10000) detected at line 41
+Underfull \vbox (badness 10000) detected at line 39
  []
 
-[11] [12]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD6.tex
-Underfull \vbox (badness 10000) detected at line 12
+[13]) (./sections/unidades_didacticas/UD6.tex [14]
+Underfull \vbox (badness 10000) detected at line 10
  []
 
 
-Underfull \vbox (badness 10000) detected at line 24
+Underfull \vbox (badness 10000) detected at line 22
  []
 
-[13] [14])) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/06_minimos.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/07_recuperacion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/08_atencion_diversidad.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/09_eval_prac_doc.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/10_transversales.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/11_conclusion.tex)
+[15])) (./sections/06_minimos.tex) (./sections/07_recuperacion.tex) (./sections/08_atencion_diversidad.tex) (./sections/09_eval_prac_doc.tex) (./sections/10_transversales.tex) (./sections/11_conclusion.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
- [15] [16]
+ [16] [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
- (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.aux)
+ (./main_regular.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 23477 strings out of 492909
- 444245 string characters out of 6136299
- 761292 words of memory out of 5000000
- 27294 multiletter control sequences out of 15000+600000
+ 23482 strings out of 492909
+ 441546 string characters out of 6136299
+ 760454 words of memory out of 5000000
+ 27302 multiletter control sequences out of 15000+600000
  536531 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 45i,18n,79p,893b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,79p,889b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.xdv (17 pages, 204132 bytes).
+Output written on main_regular.pdf (18 pages).

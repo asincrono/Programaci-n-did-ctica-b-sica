@@ -11,35 +11,38 @@
     \textbf{RA1} & \textbf{RA2} & \textbf{RA3} & \textbf{RA4} & \textbf{RA5} & \textbf{RA6} & \textbf{U.D.} & \textbf{Título} & \textbf{Descripción} & \textbf{Duración}\\ \midrule
     \endhead
     \showrowcolors
-     X &   &   &   &   &   & 1 & Anatomía de un P.C. & Hardware y software básico de un P.C. & 10 \\
-       &   &   &   &   & X & 2 & Las virtudes de virtualizar & Uso de máquinas virtuales & 15 \\
-       &   & X &   &   &   & 3 & Haciendo el equipo operativo & Instalación de SS.OO. & 20 \\
-    \bottomrule
-
-\end{tabularx}
-\egroup
-
-\bgroup % Para limitar el scope de \rowcolors{}{}{}
-\begin{sidewaystable}[h]
-\rowcolors{1}{}{lightgray!25}
-\noindent
-\begin{tabularx}{\textwidth}{P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.75cm} X X P{2cm}}
-    \hiderowcolors
-    \toprule
-    \multicolumn{6}{c}{\textbf{Resultados de aprendizaje}} & \\ \cmidrule{1-6}
-    \textbf{RA1} & \textbf{RA2} & \textbf{RA3} & \textbf{RA4} & \textbf{RA5} & \textbf{RA6} & \multirow{-2}{*}{\textbf{U.D.}} & \multirow{-2}{*}{\textbf{Título}} & \multirow{-2}{*}{\textbf{Descripción}} & \multirow{-2}{*}{\textbf{Duración}}\\ \midrule
-    \endfirsthead
-    \toprule
-    \textbf{RA1} & \textbf{RA2} & \textbf{RA3} & \textbf{RA4} & \textbf{RA5} & \textbf{RA6} & \textbf{U.D.} & \textbf{Título} & \textbf{Descripción} & \textbf{Duración}\\ \midrule
-    \endhead
-    \showrowcolors
-     X &   &   &   &   &   & 1 & Anatomía de un P.C. & Elementos hardware y software fundamentales de un sistema informático & \NumSesionesUD{1} \\
-       &   &   &   &   & X & 2 & Las virtudes de virtualizar & Características de la virtualización y utilización de máquinas virtuales & \NumSesionesUD{2} \\
-       & X &   &   &   &   & 3 & Haciendo el equipo operativo & Instaliación de sistemas operativos & \NumSesionesUD{3} \\
-       &   & X &   &   &   & 4 & Decorando el <<home>> & Configuración del entorno de usuario y sistema de ficheros & \NumSesionesUD{4} \\
+     X &   &   &   &   &   & 1 & Anatomía de un P.C. & Hardware y software básico de un P.C. & \NumSesionesUD{1} \\
+       &   &   &   &   & X & 2 & Las virtudes de virtualizar & Uso de máquinas virtuales & \NumSesionesUD{2} \\
+       & X &   &   &   &   & 3 & Haciendo el equipo operativo & Instalación de distintos SS.OO. & \NumSesionesUD{2}\\
+       &   & X &   &   &   & 4 & Decorando el <<home>> & Configuración del entorno de usuario y manejo del sistema de ficheros & \NumSesionesUD{4} \\
        &   &   & X &   &   & 5 & Tomando los mandos & Administración del sistema y servicios & \NumSesionesUD{5} \\
        &   &   &   & X &   & 6 & ¡Commandos! & Uso de la linea de comandos & \NumSesionesUD{6} \\
     \bottomrule
+
 \end{tabularx}
-\end{sidewaystable}
 \egroup
+
+% \bgroup % Para limitar el scope de \rowcolors{}{}{}
+% \begin{sidewaystable}{ph!}
+% \rowcolors{1}{}{lightgray!25}
+% \noindent
+% \begin{tabularx}{\textwidth}{P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.54cm} P{0.75cm} X X P{2cm}}
+%     \hiderowcolors
+%     \toprule
+%     \multicolumn{6}{c}{\textbf{Resultados de aprendizaje}} & \\ \cmidrule{1-6}
+%     \textbf{RA1} & \textbf{RA2} & \textbf{RA3} & \textbf{RA4} & \textbf{RA5} & \textbf{RA6} & \multirow{-2}{*}{\textbf{U.D.}} & \multirow{-2}{*}{\textbf{Título}} & \multirow{-2}{*}{\textbf{Descripción}} & \multirow{-2}{*}{\textbf{Duración}}\\ \midrule
+%     \endfirsthead
+%     \toprule
+%     \textbf{RA1} & \textbf{RA2} & \textbf{RA3} & \textbf{RA4} & \textbf{RA5} & \textbf{RA6} & \textbf{U.D.} & \textbf{Título} & \textbf{Descripción} & \textbf{Duración}\\ \midrule
+%     \endhead
+%     \showrowcolors
+%      X &   &   &   &   &   & 1 & Anatomía de un P.C. & Elementos hardware y software fundamentales de un sistema informático & \NumSesionesUD{1} \\
+%        &   &   &   &   & X & 2 & Las virtudes de virtualizar & Características de la virtualización y utilización de máquinas virtuales & \NumSesionesUD{2} \\
+%        & X &   &   &   &   & 3 & Haciendo el equipo operativo & Instaliación de sistemas operativos & \NumSesionesUD{3} \\
+%        &   & X &   &   &   & 4 & Decorando el <<home>> & Configuración del entorno de usuario y sistema de ficheros & \NumSesionesUD{4} \\
+%        &   &   & X &   &   & 5 & Tomando los mandos & Administración del sistema y servicios & \NumSesionesUD{5} \\
+%        &   &   &   & X &   & 6 & ¡Commandos! & Uso de la linea de comandos & \NumSesionesUD{6} \\
+%     \bottomrule
+% \end{tabularx}
+% \end{sidewaystable}
+% \egroup
