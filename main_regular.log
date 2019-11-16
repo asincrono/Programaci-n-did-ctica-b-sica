@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.26)  9 NOV 2019 19:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.26)  14 NOV 2019 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular
+**c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.tex
 (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
@@ -713,8 +713,7 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 )) (c:/texlive/2019/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-)
-No file main_regular.aux.
+) (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.aux)
 \openout1 = `main_regular.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -735,6 +734,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
 LaTeX Font Info:    ... okay on input line 117.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
 LaTeX Font Info:    ... okay on input line 117.
+
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
@@ -837,23 +837,26 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 117.
 LaTeX Info: Redefining \pageref on input line 117.
 LaTeX Info: Redefining \nameref on input line 117.
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 120.
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1
 
-]
+] (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `main_regular.toc'.
 
- [1] (./sections/01_introduccion.tex) (./sections/02_identificacion.tex
+ [1] (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/01_introduccion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/02_identificacion.tex
 Underfull \vbox (badness 10000) detected at line 9
  []
 
@@ -869,7 +872,7 @@ Underfull \vbox (badness 10000) detected at line 36
 Underfull \vbox (badness 10000) detected at line 47
  []
 
-) (./sections/03_concrecion.tex) (./sections/04_relacion_ud.tex
+) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/03_concrecion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/04_relacion_ud.tex
 Overfull \hbox (2.6663pt too wide) in paragraph at lines 22--22
  []|\TU/Arial(0)/bx/n/12 RA1| 
  []
@@ -1009,7 +1012,7 @@ Underfull \hbox (badness 4940) in paragraph at lines 22--22
 \TU/Arial(0)/m/n/12 del sistema y
  []
 
-[2]) (./sections/05_unidades_didacticas.tex (./sections/unidades_didacticas/UD1.tex
+[2]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/05_unidades_didacticas.tex (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD1.tex
 Underfull \vbox (badness 10000) detected at line 10
  []
 
@@ -1028,47 +1031,336 @@ Underfull \hbox (badness 1117) in paragraph at lines 39--39
  []
 
 [4] [5]
-Overfull \vbox (6.0pt too high) detected at line 86
+Overfull \vbox (6.0pt too high) detected at line 100
  []
 
-./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.86 \end{tabularx}
-                   
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
 
-
-Overfull \vbox (6.0pt too high) detected at line 86
+Overfull \vbox (6.0pt too high) detected at line 100
  []
 
-./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.86 \end{tabularx}
-                   
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
 
-
-Overfull \vbox (6.0pt too high) detected at line 86
+Underfull \hbox (badness 3396) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 A1.1: Elementos
  []
 
-./sections/unidades_didacticas/UD1.tex:86: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.86 \end{tabularx}
-                   
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 de un sistema
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 cripción de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 elementos que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 sus funciones e
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 100--100
+[]|\TU/Arial(0)/m/n/12 TP1.1.1.: Explica-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 ayuda de un PC
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.1.2.: \TU/Arial(0)/m/n/12 Análisis
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 diagrama con los
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 elementos funcio-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 nales y sus rela-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TA1.2.1.: \TU/Arial(0)/m/n/12 Resolu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 A1.2: Codifi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 cación de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 información:
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 Sistemas de co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 dificación y su
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.2.2.: \TU/Arial(0)/m/n/12 Análisis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 TA1.2.1.: \TU/Arial(0)/m/n/12 Ejerci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 decimal, binario,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TA1.2.2. \TU/Arial(0)/m/n/12 Resolu-
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 tor, PC con co-
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 boletín de ejerci-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 100--100
+[]|\TU/Arial(0)/m/n/12 PE1.2.1 resuelta,
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 boletín de ejerci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 A1.3: Sistemas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 Operativos:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 Funciones, ar-
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 quitectura de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 S.S.O.O. y con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 TP1.3.1: \TU/Arial(0)/m/n/12 Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 ceptos teóricos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 de funciones su
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.3.2: \TU/Arial(0)/m/n/12 Concep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 tos teóricos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.3.3: \TU/Arial(0)/m/n/12 Demos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 tración práctica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 de procesos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 TA1.2.1: \TU/Arial(0)/m/n/12 Resolu-
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TA1.3.2: \TU/Arial(0)/m/n/12 Realiza-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 sobre procesos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/m/n/12 Encerado, pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 yector, equipos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 WSL instalados,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 A1.4: Sistemas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 ceptos teóricos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 organización y
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 TP1.4.1: \TU/Arial(0)/m/n/12 Concep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 tos teóricos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 los sistemas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.4.2: \TU/Arial(0)/m/n/12 De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 mostración de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 particionado de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.4.3\TU/Arial(0)/m/n/12 : Teoría
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 sobre sistemas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TP1.4.4: \TU/Arial(0)/m/n/12 Co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 rrección prueba
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 100--100
+[]|\TU/Arial(0)/bx/n/12 TA1.4.1: \TU/Arial(0)/m/n/12 Práctica
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 100--100
+\TU/Arial(0)/bx/n/12 TA1.4.2: \TU/Arial(0)/m/n/12 Realiza-
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 tor, PC, PE1.4.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 impresa, ins-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 trucciones de
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 100--100
+[]|\TU/Arial(0)/m/n/12 PE1.4.1 resuelta,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\TU/Arial(0)/m/n/12 sistema particio-
+ []
 
 [6
 
-]) (./sections/unidades_didacticas/UD2.tex
+] [7] [8]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD2.tex
 Underfull \vbox (badness 10000) detected at line 10
  []
 
@@ -1085,33 +1377,33 @@ Underfull \hbox (badness 1072) in paragraph at lines 59--59
 []|\TU/Arial(0)/m/n/12 CE6.3. Se analizaron las principales herra-
  []
 
-[7
+[9
 
-]) (./sections/unidades_didacticas/UD3.tex
+]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD3.tex
 Underfull \vbox (badness 10000) detected at line 10
- []
-
-[8]
-Underfull \vbox (badness 10000) detected at line 22
- []
-
-
-Underfull \vbox (badness 10000) detected at line 38
- []
-
-[9]) (./sections/unidades_didacticas/UD4.tex
-Underfull \vbox (badness 10000) detected at line 10
- []
-
-
-Underfull \vbox (badness 10000) detected at line 22
  []
 
 [10]
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 38
  []
 
-[11]) (./sections/unidades_didacticas/UD5.tex
+[11]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD4.tex
+Underfull \vbox (badness 10000) detected at line 10
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 22
+ []
+
+[12]
+Underfull \vbox (badness 10000) detected at line 38
+ []
+
+[13]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD5.tex
 Underfull \vbox (badness 10000) detected at line 11
  []
 
@@ -1119,7 +1411,7 @@ Underfull \vbox (badness 10000) detected at line 11
 Underfull \vbox (badness 10000) detected at line 23
  []
 
-[12]
+[14]
 Underfull \hbox (badness 6284) in paragraph at lines 39--39
 []|\TU/Arial(0)/m/n/12 OE4.3. Listar los procesos de
  []
@@ -1128,7 +1420,7 @@ Underfull \hbox (badness 6284) in paragraph at lines 39--39
 Underfull \vbox (badness 10000) detected at line 39
  []
 
-[13]) (./sections/unidades_didacticas/UD6.tex [14]
+[15]) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/unidades_didacticas/UD6.tex [16]
 Underfull \vbox (badness 10000) detected at line 10
  []
 
@@ -1136,21 +1428,21 @@ Underfull \vbox (badness 10000) detected at line 10
 Underfull \vbox (badness 10000) detected at line 22
  []
 
-[15])) (./sections/06_minimos.tex) (./sections/07_recuperacion.tex) (./sections/08_atencion_diversidad.tex) (./sections/09_eval_prac_doc.tex) (./sections/10_transversales.tex) (./sections/11_conclusion.tex)
+[17])) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/06_minimos.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/07_recuperacion.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/08_atencion_diversidad.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/09_eval_prac_doc.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/10_transversales.tex) (c:/Users/asinc/github/programacion/programacion_didactica_basica/sections/11_conclusion.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
- [16] [17]
+ [18] [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
- (./main_regular.aux)
+ (c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 23482 strings out of 492909
- 441546 string characters out of 6136299
+ 23488 strings out of 492909
+ 444472 string characters out of 6136299
  760454 words of memory out of 5000000
  27302 multiletter control sequences out of 15000+600000
  536531 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 45i,18n,79p,889b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,18n,79p,893b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main_regular.pdf (18 pages).
+Output written on c:/Users/asinc/github/programacion/programacion_didactica_basica/main_regular.xdv (20 pages, 231476 bytes).
