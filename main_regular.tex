@@ -43,7 +43,7 @@
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \newcolumntype{C}{>{\centering\arraybackslash}X}
-\renewcommand{\tabularxcolumn}[1]{m{#1}}
+% \renewcommand{\tabularxcolumn}[1]{m{#1}}
 
 \usepackage{makecell}
 \renewcommand\theadfont{\bfseries\normalsize}
@@ -69,6 +69,9 @@
 % Ajustar el espacio después de cambiar dicha numeración.
 %\setlength{\cftsubsubsecnumwidth}{\dimexpr 4em + 0.7ex}
 \addtolength{\cftsubsubsecnumwidth}{\widthof{x)} - 1ex}
+
+% Para crear "puntos" sin usar itemize (en tablas).
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 \usepackage{hyperref}
 \hypersetup{hidelinks}
